@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#3f5efb,#fc466b);
+}
+.content{
+    width: 50%;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgb(249, 245, 245,0.5);
+    border-left: 1px solid rgb(249, 245, 245,0.5);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.login h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 10px;
+}
+form input[type=text]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid silver;
+}
+form label{
+    font-size: 20px;
+    color: white;
+    margin: 6px;
+    margin-left: 50px;
+}
+select{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    margin: 5% auto;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid silver;
+}
+form input[type=number]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    margin: 5% auto;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid silver;
+}
+form input[type=password]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    margin: 5% auto;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid silver;
+}
+button{
+    font-size: 20px;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    background-image: linear-gradient(to right,#3f5efb,#fc466b)
+}
+button:hover{
+    background-image: linear-gradient(to right,#fbeb3f,#f80fd9)
+}
+.forgot{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.forgot1{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+    padding: 5px;
+}
+.forgot1:hover{
+    text-decoration: underline;
+}
+.forgot1 a{
+    text-decoration: none;
+    color: white;
+}
+.forgot2 a{
+    text-decoration: none;
+    color:white
+}
+.forgot2{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+.forgot2 a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+    .container {
+      width: auto;
+    }
+  }
